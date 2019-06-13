@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Grotesk';
+  src: url('fonts\\Grotesk Light.ttf'); /* IE9 Compat Modes */
+  src: url('fonts\\Grotesk Light.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts\\Grotesk Light.ttf') format('woff'), /* Modern Browsers */
+       url('fonts\\Grotesk Light.ttf')  format('truetype');
+}
+
+* { transition: 1s; } /* Transition effect for hover to look good */
+body { margin: 0; } /*no need for body default extra margin*/
+a { text-decoration: none; color: #404a56; }
+a:hover {color: #848b93;}
+h1, h2, h3, h4, h5, h6 { font-family: Grotesk; }
+.home_list, .main_list, .sub_list {padding-left: 15px;}
+.SideBar { /*Sidebar section styling for its width, border, padding*/
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid #ddd;
+	padding: 15px;
+    float: left;
+}
+.SideBar h1 {
+	margin: 0;
+	font-size: 16px;
+}
+.SideBar h1 a { font-weight: normal; }
+.SideBar h2 {
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-size: 16px;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.SideBar h3 {
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-size: 16px;
+    padding-left: 40px;
+    font-weight: normal;
+}
+.SideBar h4 {
+	margin-bottom: 0;
+	margin-top: 10px;
+	font-size: 16px;
+    padding-left: 60px;
+    font-weight: normal;
+}
+.SideBar h3:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	height: 2px;
+	width: 12px;
+	background: #505d6b;
+	opacity: .3;
+}
+.SideBar h4:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    height: 7px;
+    width: 7px;
+    background: #505d6b;
+    opacity: .3;
+    margin-bottom: 5px;
+}
+#content {
+    float: left;
+    padding: 20px;
+}
