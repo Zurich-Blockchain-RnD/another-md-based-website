@@ -2,4 +2,4 @@
 title: Homepage
 permalink: /
 ---
-Write instructions for users
+Write instructions for users.
