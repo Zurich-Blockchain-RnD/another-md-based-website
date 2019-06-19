@@ -2,4 +2,4 @@
 title: Homepage
 permalink: /
 ---
-Write instructions for users to understand site
+See if changed appear
