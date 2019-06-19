@@ -7,7 +7,7 @@ title: Smart contracts
 - Solidity basics and differences to common languages
 - Building a complete Dapp (full stack)
 
-[Getting up to speed on Ethereum](https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe)
+[Getting up to speed on Ethereum](https://hyp.is/ogpHPIVGEemSY5dd68xD0A/medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe)
 Aug 7, 2017 - Matt Condon
 
 [Ethereum In Depth, Part 1](https://blog.zeppelin.solutions/ethereum-in-depth-part-1-968981e6f833)
