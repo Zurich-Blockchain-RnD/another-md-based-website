@@ -2,4 +2,4 @@
 title: Homepage
 permalink: /
 ---
-See if changed appear
+See if changes appear
