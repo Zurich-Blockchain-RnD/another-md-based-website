@@ -5,7 +5,7 @@ title: Smart contracts
 - How Bitcoin work - a basic blockchain example
 - How Ethereum works
 - Solidity basics and differences to common languages
-- Building a complete Dapp
+- Building a complete Dapp (full stack)
 
 [Getting up to speed on Ethereum](https://medium.com/@mattcondon/getting-up-to-speed-on-ethereum-63ed28821bbe)
 Aug 7, 2017 - Matt Condon
