@@ -1,7 +1,7 @@
 ---
 title: Programming a blockchain
 ---
-Learn the basic components by building one yourself
+Learn the basic components by building one yourself.
 
 ### For Python programmers
 1.  [Let’s Build the Tiniest Blockchain
