@@ -26,6 +26,6 @@ Parts 1-7 Feb 13, 2019 - Wil Barnes
 Jan 18, 2017 - Mahesh Murthy
 
 [Ethereum Developer Portal](https://ethereum.consensys.net/ethereum-dev-portal) 
-Everything you need to get started building on Ethereum Updated often - ConsenSys
+Everything you need to get started building on Ethereum Updated often -ConsenSys
 
 [Solidity developers Group for all ethereum/solidity development discussion](https://t.me/dev_solidity)
