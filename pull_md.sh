@@ -22,7 +22,7 @@ git pull upstream master --allow-unrelated-histories --no-edit
 # push changed files from MD repo to pages repo
 git push origin master
 
-ROBOCOPY .\_site\ ..\html-files\ /s
+ROBOCOPY .\\_site\\ ..\\html-files\\ //s
 cd ../html-files
 git add .
 git commit -m "Change site files"
