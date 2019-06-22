@@ -28,7 +28,7 @@ cd _site
 git add .
 # Commit them with some description message
 git commit -m "New HTML Files Generated"
-# Push into both master and gh-pages (Only HTML/CSS[site] files)
+# Push into both master and gh-pages (HTML/CSS/JS[site] files)
 git push origin master:gh-pages
 
 # pause bash
