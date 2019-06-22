@@ -22,14 +22,11 @@ git pull upstream master --allow-unrelated-histories --no-edit
 # push changed files from MD repo to pages repo
 git push origin master
 
-# change directory to _site for all HTML generated files 
-cd _site
-# Add all files to git from _site
+ROBOCOPY .\_site\ ..\html-files\ /s
+cd ../html-files
 git add .
-# Commit them with some description message
-git commit -m "New HTML Files Generated"
-# Push into both master and gh-pages (HTML/CSS/JS[site] files)
-git push upstream master
+git commit -m "Change site files"
+git push origin master
 
 # pause bash
 $SHELL
