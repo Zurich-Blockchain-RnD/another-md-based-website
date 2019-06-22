@@ -21,5 +21,15 @@ git pull origin gh-pages --no-edit
 git pull upstream master --allow-unrelated-histories --no-edit
 # push changed files from MD repo to pages repo
 git push origin gh-pages
+
+# change directory to _site for all HTML generated files 
+cd _site
+# Add all files to git from _site
+git add .
+# Commit them with some description message
+git commit -m "New HTML Files Generated"
+# Push into both master and gh-pages (Only HTML/CSS[site] files)
+git push origin master:gh-pages
+
 # pause bash
 $SHELL
